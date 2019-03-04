@@ -205,6 +205,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSubscribe(Disposable d) {
                 disposable = d;
+                //hhhhhh
                 Log.d("TAG1", "onSubscribe" + " Hilo: " + Thread.currentThread().getName());
             }
 
